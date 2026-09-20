@@ -1,11 +1,13 @@
 import { CakeView } from './features/cake/CakeView'
 import { IceCreamView } from './features/icecream/IceCreamView'
+import { UserView } from './features/user/UserView'
 
 function App() {
   return (
     <div>
       <CakeView />
-      <IceCreamView/>
+      <IceCreamView />
+      <UserView />
     </div>
   )
 }

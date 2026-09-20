@@ -24,7 +24,7 @@ const IceCreamSlice = createSlice({
     //extraReducers is way for one slice to listen
     //  and respond to actions generated outside of itself.
     extraReducers: (builder) => {
-        // builder.addCase('cake/ordered', (state) =>{
+        // builder.addCase('cake/ordered'(action), (state) =>{
         builder.addCase(cakeOrdered, (state) =>{
             state.numOfIceCreams--
         })
